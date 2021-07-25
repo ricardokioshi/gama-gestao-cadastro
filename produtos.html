@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gestão de Cadastros - Gama Academy</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h2>Gestão de Cadastros - GAMA ACADEMY</h2>
+        </div>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="cliente.html">
+                    <li>Clientes</li>
+                </a>
+                <a href="produtos.html">
+                    <li>Produtos</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="cadastro">      
+        <div>
+        <form id="frmproduto">
+            <h3>Cadastro de Produtos</h3>
+            <input type="text" name="cod"'' id="cod" placeholder="Código do Produto" required>
+            <input type="text" name="desc" id="desc" placeholder="Descrição" required>
+            <input type="number" name="qtd"  id="qtd" placeholder="Quantidade" required>
+            <button type="submit" onclick="cadprod();">Salvar</button>
+        </form>        
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+
+
+</html>

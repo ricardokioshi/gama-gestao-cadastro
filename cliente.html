@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gestão de Cadastros</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h2>Gestão de Cadastros - GAMA ACADEMY</h2>
+        </div>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="cliente.html">
+                    <li>Clientes</li>
+                </a>
+                <a href="produtos.html">
+                    <li>Produtos</li>
+                </a>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section id="cadastro">
+        <div>
+            <form id="frmcliente">
+                <h3>Cadastro de Clientes</h3>
+                <input type="text" name="nome" id="nome" placeholder="Nome Completo" required>
+                <input type="text" name="cpf" id="cpf" placeholder="CPF" required>                
+                <input type="text" name="cep" id="cep" placeholder="Cep" required>
+                <input type="text" name="end" id="end" placeholder="Endereço" required>                
+                <input type="text" name="bairro" id="bairro" placeholder="Bairro" required>
+                <input type="text" name="mun" id="mun" placeholder="Municipio" required>
+                <input type="text" name="uf" id="uf" placeholder="UF" required>
+                <input type="tel" name="tel" id="tel" placeholder="Telefone" required >
+                <input type="email" id="email" placeholder="E-mail" required>
+                <button type="submit" onclick="cadcli();">Salvar</button>
+            </form>
+        </div>
+
+    </section>
+    </section>
+
+    <footer>
+        <p>Todos os direitos reservados RentalLux</p>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+
+</html>
